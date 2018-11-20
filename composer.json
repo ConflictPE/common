@@ -1,0 +1,28 @@
+{
+    "name": "conflict-network/common",
+    "description": "Common components used throughout the Conflict Networks network-layer source code.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jack Noordhuis",
+            "email": "daswaggamer@gmail.com"
+        }
+    ],
+    "replace": {
+        "conflict-network/common-contracts": "self.version",
+        "conflict-network/common-traits": "self.version",
+        "conflict-network/common-laravel": "self.version",
+        "conflict-network/common-pop": "self.version"
+    },
+    "autoload": {
+        "ConflictNetwork\\Common\\Contracts\\": "Contracts/src/",
+        "ConflictNetwork\\Common\\Traits\\": "Traits/src/",
+        "ConflictNetwork\\Common\\Implementation\\Laravel\\": "Implementation/Laravel/src/",
+        "ConflictNetwork\\Common\\Implementation\\POP\\": "Implementation/POP/src/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
