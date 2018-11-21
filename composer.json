@@ -15,10 +15,12 @@
         "conflict-network/common-pop": "self.version"
     },
     "autoload": {
-        "ConflictNetwork\\Common\\Contracts\\": "Contracts/src/",
-        "ConflictNetwork\\Common\\Traits\\": "Traits/src/",
-        "ConflictNetwork\\Common\\Implementation\\Laravel\\": "Implementation/Laravel/src/",
-        "ConflictNetwork\\Common\\Implementation\\POP\\": "Implementation/POP/src/"
+        "psr-4": {
+            "ConflictNetwork\\Common\\Contracts\\": "Contracts/src/",
+            "ConflictNetwork\\Common\\Traits\\": "Traits/src/",
+            "ConflictNetwork\\Common\\Implementation\\Laravel\\": "Implementation/Laravel/src/",
+            "ConflictNetwork\\Common\\Implementation\\POP\\": "Implementation/POP/src/"
+        }
     },
     "extra": {
         "branch-alias": {
