@@ -8,6 +8,9 @@
             "email": "daswaggamer@gmail.com"
         }
     ],
+    "require": {
+        "php": "^7.1"
+    },
     "replace": {
         "conflict-network/common-contracts": "self.version",
         "conflict-network/common-traits": "self.version",
